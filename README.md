@@ -14,6 +14,9 @@ This is the regional dataset of the retail store generated
   1. Data cleaning
   2. Analysis
   3. Visualisation
+  4. 
 - SQL- Structured Query Language for querying of data
+- 
 - PowerBi- interactive data visualisation of the dataset analysis
+- 
 - Github - Portfolio building
