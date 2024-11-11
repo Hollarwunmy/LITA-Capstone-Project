@@ -66,3 +66,60 @@ This is the regional dataset of the retail store provided by LITA for the projec
 - Change the date to month using the DAX formula Month Name = FORMAT(SalesData[OrderDate], "MMMM")
 - The visualisation is initiated from the report view
 
+### SQL
+
+Use LITA;
+
+select * from [dbo].[SalesData]
+
+----Retrieve the total sales for each product category.
+select Product As ProductCategory, sum(salesamount) As TotalSales
+from [dbo].[SalesData]
+group by Product;
+
+
+----Find the number of sales transactions in each region.
+select Region, COUNT(OrderID) As NumberOfSales_Transactions
+from [dbo].[SalesData]
+Group By Region;
+
+
+----Find the highest-selling product by total sales value.
+select top 1 Product, sum(salesamount) As SalesValue
+from [dbo].[SalesData]
+group by Product
+order by SalesValue desc
+
+----Calculate total revenue per product.
+select Product, sum(salesamount) As TotalRevenue
+from [dbo].[SalesData]
+group by Product;
+
+
+----Calculate monthly sales totals for the current year.
+select month(orderdate) Months, sum(salesamount) As Sales
+from [dbo].[SalesData]
+where YEAR(orderdate) = '2024'
+group by month(orderdate)
+order by month(orderdate);
+
+
+----Find the top 5 customers by total purchase amount.
+select top 5 CustomerName, sum(Revenue) As Total_Purchase_Amount
+from [dbo].[CustomerData]
+group by CustomerName
+order by sum(Revenue) desc
+
+----Calculate the percentage of total sales contributed by each region.
+select Region, concat(round(sum(salesamount)*100/(select sum(salesamount)
+from [dbo].[SalesData]), 0), '%') As PercentageOfTotalSales
+
+from [dbo].[SalesData]
+group by region
+
+----Identify products with no sales in the last quarter.
+select product
+from [dbo].[SalesData]
+where SalesAmount is null and orderdate in (01/10/2024, 31/12/2024)
+
+
