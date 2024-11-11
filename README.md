@@ -14,11 +14,11 @@ This is the regional dataset of the retail store provided by LITA for the projec
   1. Data cleaning
   2. Analysis
   3. Visualisation
-     
+  
 - **SQL**- Structured Query Language for querying of data
-- 
+
 - **PowerBi**- interactive data visualisation of the dataset analysis
-- 
+
 - **Github** - Portfolio building
   
 ### Data Structure
