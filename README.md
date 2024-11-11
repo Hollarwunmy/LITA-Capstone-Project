@@ -10,6 +10,10 @@ In this project, I'll be analyzing the sales performance of a retail store. To e
 This is the regional dataset of the retail store generated
 
 ### Tools Used
-Microsoft Excel for data cleaning and Visualisation
-SQL
-PowerBI
+- Microsoft Excel
+  1. Data cleaning
+  2. Analysis
+  3. Visualisation
+- SQL- Structured Query Language for querying of data
+- PowerBi- interactive data visualisation of the dataset analysis
+- Github - Portfolio building
