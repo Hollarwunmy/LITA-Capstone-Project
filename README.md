@@ -22,6 +22,6 @@ This is the regional dataset of the retail store provided by LITA for the projec
 - Github - Portfolio building
   
 ### Data Structure
-Sales Performance of Retail Store
+**Sales Performance of Retail Store**
 - Order Id
 - 
