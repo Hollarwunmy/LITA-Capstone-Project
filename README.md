@@ -20,4 +20,8 @@ This is the regional dataset of the retail store provided by LITA for the projec
 - PowerBi- interactive data visualisation of the dataset analysis
 - 
 - Github - Portfolio building
+  
+### Data Structure
+Sales Performance of Retail Store
+- Order Id
 - 
