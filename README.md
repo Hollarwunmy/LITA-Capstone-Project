@@ -49,4 +49,20 @@ This is the regional dataset of the retail store provided by LITA for the projec
 - Check for null and duplicate values to be removed
 - Standardise data formats for numbers and text
 
-### 
+## Process of Data Analysis    
+
+### Microsoft Data Analysis
+- Highlight the Sales performance retail data to insert Pivot Table
+- Click "From Table/Range"
+- Click Existing woorksheet, then click okay
+- Repeat same process on the Customer Segmentation for a subscription Service Data
+
+### PowerBI
+- Click on Get data to upload the data from MIcrosoft Excel.
+- Once the data is uploaded, tick Sales and Customer data and click transform data
+- Under the Power query editor, click on the view then tick column quality to check on the data quality
+- Checkk the order date to ensure it correlates and if not, change to date format
+- Create a new column and name it Order Month
+- Change the date to month using the DAX formula Month Name = FORMAT(SalesData[OrderDate], "MMMM")
+- The visualisation is initiated from the report view
+
