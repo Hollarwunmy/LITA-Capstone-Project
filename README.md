@@ -33,5 +33,18 @@ This is the regional dataset of the retail store provided by LITA for the projec
 - Unit Price
 - Total Sales
 
-### Customer Segmentation for a Subscription Service
-- 
+### Customer Segmentation for a Subscription Service 
+- Customer Id
+- Customer Name
+- Region
+- Subscription Type
+- Subscription Start
+- Suscription End
+- Subscription Duration
+- Cancelled
+- Revenue
+
+## Steps In Data Cleaning
+- Download the dataset provided by LITA
+- Check for null and duplicate values to be removed
+- Standardise data formats for numbers and text
