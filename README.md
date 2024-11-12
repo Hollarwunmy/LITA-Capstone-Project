@@ -119,6 +119,4 @@ select product
 from [dbo].[SalesData]
 where SalesAmount is null and orderdate in (01/10/2024, 31/12/2024)
 
- 
-
-
+![image](https://github.com/user-attachments/assets/bb126cef-3443-45d4-9d98-a5c0ce018bd9)
