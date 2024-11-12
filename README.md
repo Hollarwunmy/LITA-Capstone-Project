@@ -1,4 +1,4 @@
-# LITA-Capstone-Project
+ # LITA-Capstone-Project
 
 ### Project Title
 Sales Performance Analysis for a Retail Store
@@ -101,20 +101,20 @@ where YEAR(orderdate) = '2024'
 group by month(orderdate)
 order by month(orderdate);
 
--    Find the top 5 customers by total purchase amount.
+- Find the top 5 customers by total purchase amount.
 select top 5 CustomerName, sum(Revenue) As Total_Purchase_Amount
 from [dbo].[CustomerData]
 group by CustomerName
 order by sum(Revenue) desc
 
-----Calculate the percentage of total sales contributed by each region.
+- Calculate the percentage of total sales contributed by each region.
 select Region, concat(round(sum(salesamount)*100/(select sum(salesamount)
 from [dbo].[SalesData]), 0), '%') As PercentageOfTotalSales
 
-from [dbo].[SalesData]
+- from [dbo].[SalesData]
 group by region
 
-----Identify products with no sales in the last quarter.
+- Identify products with no sales in the last quarter.
 select product
 from [dbo].[SalesData]
 where SalesAmount is null and orderdate in (01/10/2024, 31/12/2024)
