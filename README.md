@@ -119,4 +119,13 @@ select product
 from [dbo].[SalesData]
 where SalesAmount is null and orderdate in (01/10/2024, 31/12/2024)
 
+# Pivot Chart Analysis of Sales Performance of Retail Store
+
 ![image](https://github.com/user-attachments/assets/bb126cef-3443-45d4-9d98-a5c0ce018bd9)
+- The bar chart shows total sales across four regions with the South leading at nearly 5million, followed by the East, North, and West. The South strong performance indicates it may have higher demand or more effective sales strategies compared to other regions.
+
+![image](https://github.com/user-attachments/assets/407b0cd4-072b-4912-8f40-f7f7f4c3217d)
+- The line chart shows monthly revenue trends, with a peak in February near 3million, followed by a sharo drop in March and relatively lower flluctuations for the rest of the year. The data suggests strong revenue early in the year, with a more stable but lower revenue pattern across subsequent months.
+
+
+
