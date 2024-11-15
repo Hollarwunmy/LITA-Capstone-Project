@@ -129,7 +129,7 @@ where SalesAmount is null and orderdate in (01/10/2024, 31/12/2024)
 
 
 ![image](https://github.com/user-attachments/assets/f43ff3b1-b8fb-47d4-b82c-a1da8452bc4e)
-The chart shows average sales of different clothing products. Shoes have the highest average sales with 326.7 units, followed by Shirts with 308.8 units.
+- The chart shows average sales of different clothing products. Shoes have the highest average sales with 326.7 units, followed by Shirts with 308.8 units.
 
 
 
