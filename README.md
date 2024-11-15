@@ -127,8 +127,10 @@ where SalesAmount is null and orderdate in (01/10/2024, 31/12/2024)
 ![image](https://github.com/user-attachments/assets/407b0cd4-072b-4912-8f40-f7f7f4c3217d)
 - The line chart shows monthly revenue trends, with a peak in February near 3million, followed by a sharo drop in March and relatively lower flluctuations for the rest of the year. The data suggests strong revenue early in the year, with a more stable but lower revenue pattern across subsequent months.
 
+![image](https://github.com/user-attachments/assets/443854e9-619b-4aa2-bd7d-0c911656549c)
+- The bar chart displays total sales for 2023 and 2024 while 2023 shows alomst 5.5 million and 2024 declining to about 5 million. This stats indicates a significant drop in sales from 2023 to 2024.
 
-![image](https://github.com/user-attachments/assets/f43ff3b1-b8fb-47d4-b82c-a1da8452bc4e)
+![image](https://github.com/user-attachments/assets/1a81f230-a971-4001-aef8-f8fb9a71bbc1)
 - The chart shows average sales of different clothing products. Shoes have the highest average sales with 326.7 units, followed by Shirts with 308.8 units.
 
 
