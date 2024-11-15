@@ -128,4 +128,11 @@ where SalesAmount is null and orderdate in (01/10/2024, 31/12/2024)
 - The line chart shows monthly revenue trends, with a peak in February near 3million, followed by a sharo drop in March and relatively lower flluctuations for the rest of the year. The data suggests strong revenue early in the year, with a more stable but lower revenue pattern across subsequent months.
 
 
+![image](https://github.com/user-attachments/assets/f43ff3b1-b8fb-47d4-b82c-a1da8452bc4e)
+The chart shows average sales of different clothing products. Shoes have the highest average sales with 326.7 units, followed by Shirts with 308.8 units.
+
+
+
+
+
 
